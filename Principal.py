@@ -649,7 +649,7 @@ class PantallaPrincipal():
                             recorrer = True
                     if recorrer == False:
                         MessageBox.showwarning("Alerta", "No fue posible crear el automata debido a que el estado inicial no es un no terminal")
-                        self.lista_nombres_Automata.remove(nombre)
+                        #self.lista_nombres_Automatas.remove(nombre)
                         
                     else:
                         einicial = False
@@ -662,7 +662,7 @@ class PantallaPrincipal():
                             recorrer = True
                     if recorrer == False:
                         MessageBox.showwarning("Alerta", "No fue posible crear el automata debido a que el estado inicial no es un estado definido")
-                        self.lista_nombres_Automata.remove(nombre)
+                        self.lista_nombres_Automatas.remove(nombre)
                         x = '%'
                     else:
                         einicial = False
